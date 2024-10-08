@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(31, 41, 41);
+  color: #ffff;
+}
+
+
+nav {
+  color: #ffff;
+}
+
+.navbar-brand{
+  margin-left: 20px;
+  font-family: "Dancing Script", cursive;
+}
+
+.navbar-brand span{
+  color: #387478;
+}
+
+.nav-item {
+  margin-right: 15px; 
+  font-weight: 500;
+  margin-left: 50px;
+}
+
+.nav-item:hover {
+  
+  background-color: #387478;
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+#home {
+  height: 100vh;  
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#homeCarousel .carousel-item {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#homeCarousel .carousel-item img {
+  object-fit: cover;  
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#about {
+  background-color: darkslategray;
+  padding: 50px 0;
+}
+
+#about p {
+  text-align: left; 
+  color: white;
+}
+
+#about img{
+  border-radius: 10px;
+}
+
+#about h2{
+  font-weight: bold;
+}
+
+
+.card img {
+  object-fit: cover;
+  height: 300px;
+}
+
+#contact {
+  background-color: darkslategray;
+  color: white;
+}
+
+footer {
+  background-color: #212529;
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  #home {
+    background-size: cover; 
+    background-position: center center;
+    height: auto; 
+    margin: 0;  
+    padding: 0; 
+  }
+
+  #homeCarousel .carousel-item img {
+    height: 100vh; 
+    object-fit: cover;
+  }
+}
